@@ -487,7 +487,7 @@ dependencies = [
  "log 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "parking_lot 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.3.14 (registry+https://github.com/rust-lang/crates.io-index)",
- "rocksdb 0.4.5 (git+https://github.com/ethcore/rust-rocksdb)",
+ "rocksdb 0.4.5 (git+https://github.com/wdv4758h/rust-rocksdb)",
  "rust-crypto 0.2.36 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc-serialize 0.3.19 (registry+https://github.com/rust-lang/crates.io-index)",
  "rustc_version 0.1.7 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1282,16 +1282,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "rocksdb"
 version = "0.4.5"
-source = "git+https://github.com/ethcore/rust-rocksdb#485dd747a2c9a9f910fc8ac696fc9edf5fa22aa3"
+source = "git+https://github.com/wdv4758h/rust-rocksdb#a10cd68712d639a64a07dcbe04f7547e733dbed6"
 dependencies = [
  "libc 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)",
- "rocksdb-sys 0.3.0 (git+https://github.com/ethcore/rust-rocksdb)",
+ "rocksdb-sys 0.3.0 (git+https://github.com/wdv4758h/rust-rocksdb)",
 ]
 
 [[package]]
 name = "rocksdb-sys"
 version = "0.3.0"
-source = "git+https://github.com/ethcore/rust-rocksdb#485dd747a2c9a9f910fc8ac696fc9edf5fa22aa3"
+source = "git+https://github.com/wdv4758h/rust-rocksdb#a10cd68712d639a64a07dcbe04f7547e733dbed6"
 dependencies = [
  "gcc 0.3.28 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1790,8 +1790,8 @@ dependencies = [
 "checksum rayon 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "941deb43a6254b9867fec1e0caeda38a2ad905ab18c57f7c68c396ca68998c07"
 "checksum regex 0.1.68 (registry+https://github.com/rust-lang/crates.io-index)" = "b4329b8928a284580a1c63ec9d846b12f6d3472317243ff7077aff11f23f2b29"
 "checksum regex-syntax 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)" = "841591b1e05609a643e3b4d0045fce04f701daba7151ddcd3ad47b080693d5a9"
-"checksum rocksdb 0.4.5 (git+https://github.com/ethcore/rust-rocksdb)" = "<none>"
-"checksum rocksdb-sys 0.3.0 (git+https://github.com/ethcore/rust-rocksdb)" = "<none>"
+"checksum rocksdb 0.4.5 (git+https://github.com/wdv4758h/rust-rocksdb)" = "<none>"
+"checksum rocksdb-sys 0.3.0 (git+https://github.com/wdv4758h/rust-rocksdb)" = "<none>"
 "checksum rotor 0.6.3 (git+https://github.com/ethcore/rotor)" = "<none>"
 "checksum rpassword 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "5d3a99497c5c544e629cc8b359ae5ede321eba5fa8e5a8078f3ced727a976c3f"
 "checksum rust-crypto 0.2.36 (registry+https://github.com/rust-lang/crates.io-index)" = "f76d05d3993fd5f4af9434e8e436db163a12a9d40e1a58a726f27a01dfd12a2a"
