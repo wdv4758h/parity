@@ -923,7 +923,7 @@ dependencies = [
 [[package]]
 name = "nanomsg"
 version = "0.7.0"
-source = "git+https://github.com/thehydroimpulse/nanomsg.rs.git#2a235bc07d3dc539fd661c9f00063f85f63d8666"
+source = "git+https://github.com/thehydroimpulse/nanomsg.rs.git#975a7a9ffe85d570b4095b4f5d8694698ed89c48"
 dependencies = [
  "libc 0.2.12 (registry+https://github.com/rust-lang/crates.io-index)",
  "nanomsg-sys 0.7.0 (git+https://github.com/thehydroimpulse/nanomsg.rs.git)",
@@ -932,7 +932,7 @@ dependencies = [
 [[package]]
 name = "nanomsg-sys"
 version = "0.7.0"
-source = "git+https://github.com/thehydroimpulse/nanomsg.rs.git#2a235bc07d3dc539fd661c9f00063f85f63d8666"
+source = "git+https://github.com/thehydroimpulse/nanomsg.rs.git#975a7a9ffe85d570b4095b4f5d8694698ed89c48"
 dependencies = [
  "cmake 0.1.17 (registry+https://github.com/rust-lang/crates.io-index)",
  "gcc 0.3.28 (registry+https://github.com/rust-lang/crates.io-index)",
